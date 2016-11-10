@@ -9,4 +9,6 @@ Gem::Specification.new do |s|
   s.files = ['lib/hola_maksim.rb', 'lib/hola_maksim/translator.rb']
   s.homepage = 'https://github.com/MaksimPW/hola_maksim'
   s.license = 'MIT'
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'rspec'
 end
