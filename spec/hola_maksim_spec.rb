@@ -12,4 +12,8 @@ describe 'SimpleTest' do
   it 'should hi with spanish' do
     Hola.hi('spanish').should == 'hola mundo'
   end
+
+  it 'should hi with russian' do
+    Hola.hi('russian').should == 'привет мир :)'
+  end
 end

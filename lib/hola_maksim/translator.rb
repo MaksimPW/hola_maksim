@@ -7,6 +7,8 @@ class Hola::Translator
     case @language
     when 'spanish'
       'hola mundo'
+    when 'russian'
+      'привет мир :)'
     else
       'hello world'
     end
